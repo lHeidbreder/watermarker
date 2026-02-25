@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from argparse import ArgumentParser, SUPPRESS
 from pathlib import Path
 import core.watermarker_image as wm_img
