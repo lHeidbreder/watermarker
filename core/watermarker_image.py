@@ -5,7 +5,7 @@ def add_watermark(
     input_path,
     output_path,
     text="Placeholder",
-    opacity=255,
+    opacity=128,
     color=(255, 255, 255)
 ):
     img = Image.open(input_path).convert("RGBA")
